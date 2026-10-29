@@ -100,7 +100,7 @@ function renderHeader() {
           <li><a href="${root()}about/index.html"${cur("about")}>ABOUT</a></li>
           <li class="has-dropdown${page === "work" ? " current" : ""}">
             <div class="nav-row">
-              <a href="${root()}work/index.html"${cur("work")}>WORK</a>
+              <a href="${root()}work/index.html"${cur("work")}>SERVICES</a>
               <button class="dropdown-toggle" aria-expanded="false" aria-controls="work-dd" aria-label="Show service categories">${chevron}</button>
             </div>
             <div class="dropdown" id="work-dd">
